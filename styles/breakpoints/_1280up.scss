@@ -4,19 +4,19 @@ Stylesheet: 1280px以上のモニタで適用
 
 ******************************************************************/
 
-.travel {
+.about {
     &__inner {
         padding: 50px 150px;
     }
 }
 
-.houses {
+.movie {
     &__item {
         flex-basis: 32%;
     }
 }
 
-.popular {
+.photo {
     &__item {
         flex-basis: 23%;
     }

@@ -8,14 +8,14 @@ Stylesheet: 600px以上のタブレットやモニタで適用
     flex-wrap: wrap;
 }
 
-.travel {
+.about {
     &__img,
     &__texts {
         flex-basis: 47%;
     }
 }
 
-.houses {
+.movie {
     &__inner {
         justify-content: space-between;
     }
@@ -24,7 +24,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
         margin-bottom: 60px;
     }
 }
-.popular {
+.photo {
     &__container {
         justify-content: space-between;
     }

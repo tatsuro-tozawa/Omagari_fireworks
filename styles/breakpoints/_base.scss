@@ -115,7 +115,7 @@ body {
     }
 }
 
-.travel {
+.about {
     @extend .content-width;
     @extend .mb-lg;
 
@@ -141,7 +141,7 @@ body {
     }
 }
 
-.houses {
+.movie {
     @extend .content-width;
     @extend .mb-lg;
 
@@ -160,7 +160,7 @@ body {
     }
 }
 
-.popular {
+.photo {
     &__inner {
         position: relative;
         &::before {
@@ -188,7 +188,7 @@ body {
         @extend .pb-lg;
     }
     &__img {
-        height: 150px;
+        height: 250px;
         overflow: hidden;
         margin-bottom: 5px;
 
@@ -246,5 +246,6 @@ body {
 .timer {
     span {
         font-size: 45px;
+        color:red;
     }
 }

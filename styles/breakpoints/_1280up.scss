@@ -8,6 +8,9 @@ Stylesheet: 1280px以上のモニタで適用
     &__inner {
         padding: 50px 150px;
     }
+    &__description .timer > span {
+        font-size: 40px;
+    }
 }
 
 .movie {

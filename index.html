@@ -66,6 +66,7 @@
           </div>
           <div id="main-content">
             <main>
+
               <section class="about" id="about">
                 <div class="about__inner">
                   <div class="about__img">
@@ -95,8 +96,8 @@
               
               <section class="movie" id="movie">
                 <div>
-                  <h2 class="main-title">Movie</h2>
-                  <p class="sub-title">フィナーレである、大会提供花火をご覧下さい。</p>
+                  <h2 class="main-title tween-animate-title">Movie Collection</h2>
+                  <p class="sub-title tween-animate-title">フィナーレである、大会提供花火をご覧下さい。</p>
                   <div class="movie__inner">
                     <div class="movie__item">
                       <iframe src="https://www.youtube.com/embed/PCbgjIE77Ro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -116,55 +117,55 @@
 
               <section class="photo" id="photo">
                 <div class="photo__header">
-                  <h2 class="main-title">Photo Album</h2>
-                  <p class="sub-title">夜空に舞い上がる芸術をご覧下さい。</p>
+                  <h2 class="main-title tween-animate-title">Photo Album</h2>
+                  <p class="sub-title tween-animate-title">夜空に舞い上がる芸術をご覧下さい。</p>
                 </div>
                 <div class="photo__inner">
                   <div class="photo__container">
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-5-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2013年大会</div>
                     </div>
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-6-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2012年大会</div>
                     </div>
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-7-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2013年大会</div>
                     </div>
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-8-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2013年大会</div>
                     </div>
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-9-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2012年大会</div>
                     </div>
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-10-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2013年大会</div>
                     </div>
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-11-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2014年大会</div>
                     </div>
                     <div class="photo__item">
-                      <div class="photo__img">
+                      <div class="photo__img cover-slide hover-darken">
                         <img src="images/compressjpeg/image-12-min.jpg" alt="">
                       </div>
                       <div class="photo__title">2012年大会</div>
@@ -220,9 +221,13 @@
     </nav>
     </div>
     <script src="scripts/vendors/swiper.min.js"></script>
-    <script src="scripts/libs/hero-slider.js"></script>
+    <script src="scripts/vendors/TweenMax.min.js"></script>
+    <script src="scripts/vendors/scroll-polyfill.js"></script>
+    <script src="scripts/libs/scroll.js"></script>
     <script src="scripts/libs/mobile-menu.js"></script>
     <script src="scripts/libs/countdown.js"></script>
+    <script src="scripts/libs/text-animation.js"></script>
+    <script src="scripts/libs/hero-slider.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
